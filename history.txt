@@ -176,3 +176,24 @@
   176  git checkout main
   177  git merge feature 
   178  history > history.txt
+  158  git clone https://github.com/Hexerkiller/12.git
+  159  ls-al
+  160  ls -la
+  161  cd 12
+  162  git checkout -b feature
+  163  echo "*.log" "*.tmp" >> .gitignore 
+  164  cat .gitignore 
+  165  nano .gitignore 
+  166  echo "read a book better" >> README.md
+  167  ls-al
+  168  ls -al
+  169  git add README.md .gitignore
+  170  git commit -m "commit on branch fueture"
+  171  git push -u origin feature
+  172  git push -u origin feature
+  173  git push -u origin feature
+  174  git commit --amend -m "commit in fuature branch - ammend"
+  175  git push -f origin feature
+  176  git checkout main
+  177  git merge feature 
+  178  history > history.txt
